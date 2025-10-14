@@ -1,6 +1,3 @@
-Here’s a **professional and concise project description** you can use for your **Air Quality Indexing Dashboard (MERN Stack)** — suitable for your portfolio, GitHub README, or resume 👇
-
----
 
 ### 🌫️ **Air Quality Indexing Dashboard (MERN Stack)**
 
