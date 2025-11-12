@@ -1,0 +1,67 @@
+.header-section {
+  font-family: "Times New Roman", serif;
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-date {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.location {
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.datetime {
+  font-size: 14px;
+  color: #666;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Light and Dark Theme */
+body.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}

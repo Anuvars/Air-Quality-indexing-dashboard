@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Default light theme */
+body.light-theme {
+  background-color: #f9fafb;
+  color: #111;
+}
+
+/* Dark theme */
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #f9fafb;
+}
+
+/* Optional: smooth transition */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}

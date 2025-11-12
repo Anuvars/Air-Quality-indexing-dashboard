@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background: #f9f9f9;
+  color: #222;
+}
+
+body.dark {
+  background: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
